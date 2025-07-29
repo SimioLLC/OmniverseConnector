@@ -1,0 +1,120 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SimioOmniverseConnector/1.0.0": {
+        "dependencies": {
+          "SimioAPI.Extensions": "18.272.43548"
+        },
+        "runtime": {
+          "SimioOmniverseConnector.dll": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "SimioAPI/18.272.43548": {
+        "runtime": {
+          "lib/netstandard2.0/SimioAPI.dll": {
+            "assemblyVersion": "18.272.43548.0",
+            "fileVersion": "18.272.43548.0"
+          }
+        }
+      },
+      "SimioAPI.Extensions/18.272.43548": {
+        "dependencies": {
+          "SimioAPI": "18.272.43548",
+          "SimioAPI.Graphics": "18.272.43548",
+          "System.Drawing.Common": "8.0.11"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SimioAPI.Extensions.dll": {
+            "assemblyVersion": "18.272.43548.0",
+            "fileVersion": "18.272.43548.0"
+          }
+        }
+      },
+      "SimioAPI.Graphics/18.272.43548": {
+        "dependencies": {
+          "SimioAPI": "18.272.43548"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SimioAPI.Graphics.dll": {
+            "assemblyVersion": "18.272.43548.0",
+            "fileVersion": "18.272.43548.0"
+          }
+        }
+      },
+      "System.Drawing.Common/8.0.11": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1124.52103"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SimioOmniverseConnector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
+    },
+    "SimioAPI/18.272.43548": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dOyoUdfQUXVSlGxC1Ennl97+AcEY05YgMpx4FrIBU94caUc4czLbAq4x65w5d/qpDac3xF91YK6LTatN2cTUpg==",
+      "path": "simioapi/18.272.43548",
+      "hashPath": "simioapi.18.272.43548.nupkg.sha512"
+    },
+    "SimioAPI.Extensions/18.272.43548": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5T13L2HFJba4ofpl/S3YD/dnUmecDIW8WhS2BrVSY1JUNm54nfDMPHzjmeXD0q5ZsetNdqQxHDxSAWDOqu0OBA==",
+      "path": "simioapi.extensions/18.272.43548",
+      "hashPath": "simioapi.extensions.18.272.43548.nupkg.sha512"
+    },
+    "SimioAPI.Graphics/18.272.43548": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-27wDJ6n9ZMckNjaYbW6GesQoprTH0VDMZAlZpCEiusIjPglq9YsluHTH/Ubr4RSjaXeOoU+Cp6AbuNRTJETjEg==",
+      "path": "simioapi.graphics/18.272.43548",
+      "hashPath": "simioapi.graphics.18.272.43548.nupkg.sha512"
+    },
+    "System.Drawing.Common/8.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AVyutHHKrX0Mt9C9T8W3Ccat3cVauUwvN+EqnVpSQi92nwBqoQ+2ZRvGP1S+rKK+6TGXmRflSYNShVjl2mMBlw==",
+      "path": "system.drawing.common/8.0.11",
+      "hashPath": "system.drawing.common.8.0.11.nupkg.sha512"
+    }
+  }
+}

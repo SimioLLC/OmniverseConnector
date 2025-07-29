@@ -1,0 +1,36 @@
+[app]
+name = "SimioOmniverseConnector"
+version = "1.0"
+
+["omni.connect.core".client]
+name = "SimioOmniverseConnector"
+version = "1.0"
+
+[log]
+level = "Info"
+outputStreamLevel = "Warning"
+fileLogLevel = "Info"
+file = "${logs}/${client_name}_${omni_connect_core_start_time}.log"
+includeTimeStamp = false
+setElapsedTimeUnits = ""
+
+["omni.connect.core".exportOptions.comment]
+value = ""
+
+["omni.connect.core".exportOptions.usdEncoding]
+value = "${env:USD_DEFAULT_FILE_FORMAT}"  # If the environment variable "USD_DEFAULT_FILE_FORMAT" is not set, "usdc" will be used as the default.
+
+[plugins."carb.scripting-python.plugin"]
+pythonFlags.Py_NoUserSiteDirectory = 1
+pythonFlags.Py_UnbufferedStdioFlag = 1
+
+[crashreporter]
+product = "OmniverseConnect"
+version = "${connect_sdk_version_full}"
+url = "https://services.nvidia.com/submit"
+dumpDir = "${data}"
+alwaysUpload = true
+data.appName = "${app_name}"
+data.appVersion = "${app_version}"
+data.client_connector_name = "${client_name}"
+data.client_connector_version = "${client_version}"

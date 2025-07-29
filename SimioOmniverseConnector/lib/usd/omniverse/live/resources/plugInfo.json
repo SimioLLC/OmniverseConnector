@@ -1,0 +1,23 @@
+{
+    "Plugins": [
+        {
+            "Info": {
+                "Types": {
+                    "OmniUsdLiveFileFormat": {
+                        "bases": [ "SdfFileFormat" ],
+                        "displayName": "Omniverse Live file format",
+                        "extensions": [ "live" ],
+                        "formatId": "live",
+                        "primary": true,
+                        "target": "usd"
+                    }
+                }
+            },
+            "LibraryPath": "../../../omni_usd_live.dll",
+            "Name": "Omniverse USD Live Plugin",
+            "ResourcePath": "resources",
+            "Root": "..",
+            "Type": "library"
+        }
+    ]
+}
