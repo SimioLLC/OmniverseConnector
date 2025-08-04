@@ -53,33 +53,22 @@ To use the demo **Simio .spfx** file:
 ## 4. Using the Simio Omniverse Connector
 
 ### Step 1: Verify Simio Extension Activation
-- Open **Simio** and navigate to **File → Options → User Extensions**.
-- Ensure that the **Simio Omniverse Connector** is listed and enabled.
+- Open **Simio**
+- Navigate to **Data Tab → Data Connectors → Create Importer**.
+- Ensure that the **USD Importer** is listed.
+- Navigate to **Processes Tab → User Defined**
 
-### Step 2: Configure the Omniverse Connection
-- Open the **Simio Omniverse Connector** settings.
-- Enter the **Omniverse Nucleus Server URL** where the **USD files** are hosted.
-- Verify that the **samplewarehouse.usd** file is in the correct Omniverse folder.
+### Step 2: Open Sample Model
+- In **Simio**, open the provided `.spfx` demo file provided in the repo
+- Note the connection settings information in **Definitions → Omniverse Connector Element** matches your setup
+- Note the user defined Omniverse steps are used on the model entity to update location in Omniverse relative to Simio in **ModelEntity → Processes**
+- Note the data connector on Table 1 in **Data → Table 1** imports properly
+- Return to Facility View and click **Run** to start the Simio model
 
-### Step 3: Load the USD File into Omniverse
-- Open **Omniverse USD Composer**.
-- Navigate to the **projects folder** and load the **samplewarehouse.usd** file.
-- Confirm that the **3D facility layout** is displayed correctly.
-
-### Step 4: Running a Simulation with Omniverse
-- In **Simio**, open the provided `.spfx` demo file.
-- Link the **Omniverse model** to the Simio simulation by selecting the correct **USD file**.
-- Start the simulation and observe how the **Omniverse visualization updates in real-time**.
-
-### Step 5: Using RTX Rendering for Enhanced Visualization
-- In **Omniverse USD Composer**, enable **RTX rendering** for high-quality visuals.
+### Step 3: Using RTX Rendering for Enhanced Visualization
+- In **Omniverse USD Composer**, open the related stage and confirm movements match Simio
+- Enable **RTX rendering** for high-quality visuals.
 - Adjust lighting and camera angles for a better view of the facility.
-
----
-
-## Demo Video
-To see a full demonstration of the setup and usage, watch the recorded video:
-
 
 ---
 
@@ -89,5 +78,5 @@ To see a full demonstration of the setup and usage, watch the recorded video:
   - [Simio Software Resources](https://www.simio.com/resources/)
 - Ensure your system meets **NVIDIA Omniverse hardware requirements** for optimal performance.
 
-Let us know if you need further assistance!
+
 
