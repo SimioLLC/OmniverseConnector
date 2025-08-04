@@ -26,7 +26,7 @@ Once the **Omniverse Launcher** is installed:
 ## 2. Install the Simio Omniverse Connector
 
 ### Step 1: Download and Unblock the Connector
-1. Download `SimioOmniverseConnector.zip` from this repository.
+1. Download `SimioOmniverseConnector` folder from this repository.
 2. **Unblock the ZIP file**:
    - Right-click on the downloaded `.zip` file.
    - Select **Properties**.
